@@ -350,6 +350,7 @@ for i in np.arange(len(nontransitbagofbigrams_list)):
      f.write(str(nontransitbagofbigrams_list[i]))
      f.write("\n")
 f.close() #we have produced a txt file of the most common nontransit bigrams
+#not needed
 '''
 templist=[]
 newcorpus=[]
